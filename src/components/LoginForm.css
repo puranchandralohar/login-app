@@ -1,0 +1,100 @@
+/* LoginForm.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  box-sizing: border-box
+}
+
+.login-form {
+  width: 350px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.login-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #333;
+}
+
+.login-form::before {
+  content: 'Talk Mitra';
+  font-size: 36px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.237);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.login-form h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.login-form form {
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+.login-form label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.login-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+.login-form a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.login-form a:hover {
+  color: #0056b3;
+}
+
+.login-form p {
+  margin-top: 15px;
+  margin-bottom: 0;
+  color: #666;
+  font-size: 14px;
+}
